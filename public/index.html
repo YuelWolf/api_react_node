@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Casualidad</title>
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+    	<div class="row">
+    		<div class="col-md-12">
+    			<h3 class="text-center"><span>Encuesta: Cosas que te pueden ocurrir por casualidad</span><Br><Br></h3>
+          <div class="row divAzul">
+    				<div class="divNaranja">
+    					<p class="MsoNormal">
+    						<span>Somos unos desarrolladores de juegos independientes. Estamos investigando sobre que cosas creen las personas que puede ocurrirles por casualidad, y que sentimientos les generan. Por favor escribe en el formato de abajo qué cosas crees personalmente que te ocurren por chance o suerte. Al lado selecciona qué tan probable crees que sea que te ocurra eso, y que sentimiento te genera.</span>
+                <Br><Br><span>Muchas gracias por tu colaboración.</span>
+    					</p>
+    				</div>
+          </div>
+          <BR>
+    			<div class="row divAzul">
+      				<div class="col-xs-5 divNaranja ejemplos">
+      					<h7>¿Qué te puede ocurrir por casualidad?</h7>
+      					<p class="text-center"><BR>
+      						Ej.&nbsp&nbsp&nbsp&nbsp Que llueva cuando no tengo sombrilla
+      					</p>
+      				</div>
+      				<div class="col-xs-3 divNaranja2 ejemplos">
+      					<h7>¿Qué tan probable es?</h7>
+                <p class="text-center">
+                  <h8 style="font-size:11px;">(5 es muy probable, 1 es poco probable)</h8>
+                  <form>
+                    <input type="radio" name="gender" value="50" disabled> 5&nbsp&nbsp
+                    <input type="radio" name="gender" value="40" disabled> 4&nbsp&nbsp
+                    <input type="radio" name="gender" value="30" checked> 3&nbsp&nbsp
+                    <input type="radio" name="gender" value="20" disabled> 2&nbsp&nbsp
+                    <input type="radio" name="gender" value="10" disabled> 1
+                  </form>
+                 </p>
+      				</div>
+      				<div class="col-xs-3 divNaranja ejemplos">
+      					<h7>¿Qué sentimientos te genera?</h7>
+                <p class="text-center">
+                  <h8 style="font-size:10px;">(Por favor seleccione uno dentro de la lista)</h8>
+                  <select class="lista" name="sentimientos" style="width:205px; margin-top: 9px;">
+                    <option value="Tris0" disabled>Tristeza</option>
+                    <option value="Aver0" disabled>Aversión</option>
+                    <option value="Ira0" checked>Ira</option>
+                    <option value="Anti0" disabled>Anticipación</option>
+                    <option value="Ale0" disabled>Alegría</option>
+                    <option value="Confi0" disabled>Confianza</option>
+                    <option value="Miedo0" disabled>Miedo</option>
+                    <option value="Sor0" disabled>Sorpresa</option>
+                  </select>
+                </p>
+      				</div>
+    			</div>
+          <BR>
+    			<div class="row divAzul">
+    				<div class="col-md-5 divNaranja agregados">
+              <INPUT id=casualidad1  size=46 name=casualidad>
+    				</div>
+    				<div class="col-md-3 divNaranja2 agregados">
+              <form>
+                <input type="radio" name="gender" value="51"checked> 5&nbsp&nbsp
+                <input type="radio" name="gender" value="41"> 4&nbsp&nbsp
+                <input type="radio" name="gender" value="31"> 3&nbsp&nbsp
+                <input type="radio" name="gender" value="21"> 2&nbsp&nbsp
+                <input type="radio" name="gender" value="11"> 1
+              </form>
+    				</div>
+    				<div class="col-md-3 divNaranja agregados">
+              <p class="text-center">
+                <select class="lista" name="sentimientos" style="width:205px;">
+                  <option value="Tris1">Tristeza</option>
+                  <option value="Aver1">Aversión</option>
+                  <option value="Ira1">Ira</option>
+                  <option value="Anti1">Anticipación</option>
+                  <option value="Ale1">Alegría</option>
+                  <option value="Confi1">Confianza</option>
+                  <option value="Miedo1">Miedo</option>
+                  <option value="Sor1">Sorpresa</option>
+                </select>
+              </p>
+            </div>
+    			</div>
+          <Br>
+          <div id="agregado "class="agregado">
+          </div>
+          <Br>
+          <input type=image src="/assets/img/agregar.jpg" width="40" id="btAdd">
+
+          <BR><BR>
+    			<button type="button" onclick="agregarPanel()" class="btn btn-primary btn-default btn-block">Enviar</button>
+          <Br><Br>
+    			<div class="row">
+    				<div class="col-md-12">
+    					<p class="text-warning">
+    						Derechos reservados Ashara Studios S.A.S.
+    					</p>
+    					<address>
+    						<br>Bogotá D.C. - Colombia<br>asharastudios@gmail.com
+    					</address>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
+  </body>
+</html>

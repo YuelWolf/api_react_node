@@ -1,0 +1,35 @@
+.container-fluid{
+  margin: 50px;
+  }
+
+.divAzul{
+  background-color: #5B9BD5;
+}
+.divNaranja{
+  background-color: #F4B183;
+  margin: 18px;
+  padding: 10px;
+}
+
+.divNaranja2{
+  background-color: #F4B183;
+  margin-top: 18px;
+  padding: 10px;
+}
+
+.agregados{
+  height: 45px;
+}
+
+.ejemplos{
+  height: 100px;
+}
+
+.lista{
+  height: 28px;
+}
+
+h7{
+  font-size:14px;
+  font-weight: bold;
+}
