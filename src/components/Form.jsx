@@ -1,18 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-const formulario = {
+const Form = (props) => (
   <div class='row divAzul'>
     <div class='col-md-5 divNaranja agregados'>
-      <input id="casualidad1"  size=46 name="casualidad">
+      <input id="casualidad1" size={46}name="casualidad" />
     </div>
     <div class='col-md-3 divNaranja2 agregados'>
       <form>
-        <input type='radio' name='gender' value='51'checked> 5&nbsp&nbsp
-        <input type='radio' name='gender' value='41'> 4&nbsp&nbsp
-        <input type='radio' name='gender' value='31'> 3&nbsp&nbsp
-        <input type='radio' name='gender' value='21'> 2&nbsp&nbsp
-        <input type='radio' name='gender' value='11'> 1
+        <input type='radio' name='gender' value='51'checked /> 5&nbsp&nbsp
+        <input type='radio' name='gender' value='41' /> 4&nbsp&nbsp
+        <input type='radio' name='gender' value='31' /> 3&nbsp&nbsp
+        <input type='radio' name='gender' value='21' /> 2&nbsp&nbsp
+        <input type='radio' name='gender' value='11' /> 1
       </form>
     </div>
     <div class='col-md-3 divNaranja agregados'>
@@ -26,14 +23,10 @@ const formulario = {
           <option value='Confi1'>Confianza</option>
           <option value='Miedo1'>Miedo</option>
           <option value='Sor1'>Sorpresa</option>
-        </p></select>
+        </select>
+      </p>
     </div>
-  </div><br>
-}
+  </div>
+);
 
-function agregarPanel(){
-  ReactDOM.render(
-    formulario,
-    document.getElementById('agregado')
-  )
-}
+export default Form;
